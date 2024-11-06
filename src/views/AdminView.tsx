@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
 import { Play } from "lucide-react";
+import { example } from "@/data/example";
 
 interface Exercise {
   tipo: string;
@@ -16,7 +17,7 @@ export default function AdminView() {
   const [validRoutine, setValidRoutine] = useState<boolean>(true);
   const [routineJson, setRoutineJson] = useState<string>(() => {
     const saved = localStorage.getItem("routine");
-    return saved || "[]";
+    return saved || JSON.stringify(example);
   });
 
   const [stats, setStats] = useState({

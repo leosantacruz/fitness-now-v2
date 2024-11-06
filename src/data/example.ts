@@ -1,4 +1,10 @@
-export const routine = [
+interface Exercise {
+  tipo: string;
+  nombre: string;
+  duración: string;
+  imagen: string;
+}
+export const example: Exercise[] = [
   {
     tipo: "ejercicio",
     nombre: "Precalentamiento",
