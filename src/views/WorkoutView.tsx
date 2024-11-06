@@ -3,17 +3,8 @@ import { Link } from "react-router-dom";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Home, Pause, Play, X } from "lucide-react";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+import { Home, Pause, Play } from "lucide-react";
+import { AlertDialog, AlertDialogContent } from "@/components/ui/alert-dialog";
 
 interface Exercise {
   tipo: string;
