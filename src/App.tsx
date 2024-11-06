@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AdminView from "./views/AdminView";
 import WorkoutView from "./views/WorkoutView";
