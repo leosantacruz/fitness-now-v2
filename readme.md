@@ -2,6 +2,14 @@
 
 ¡Bienvenido a **Fitness Now v2**! La aplicación de fitness que lleva tus entrenamientos al siguiente nivel, combinando un diseño moderno y minimalista con tecnología avanzada para optimizar cada repetición y mantener tu motivación al máximo. 🚀
 
+## Tecnologias
+Bolt IA
+React
+Vite
+Tailwind
+ShadCN
+Cerebro humano
+
 ### Instalación
 npm install
 
