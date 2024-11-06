@@ -10,6 +10,10 @@ Tailwind
 ShadCN
 Cerebro humano
 
+## Live demo
+[fitness-now-v2.vercel.app](https://fitness-now-v2.vercel.app)
+
+
 ### Instalación
 npm install
 
